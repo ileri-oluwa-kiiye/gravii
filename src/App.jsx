@@ -1,18 +1,13 @@
 // import { useState } from 'react'
-import Sidebar from "./assets/components/sidebar"
-import Main from "./assets/components/main"
+import Nav from "./assets/components/nav"
+import Hero from "./assets/components/hero"
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <nav>
-        <Sidebar />
-      </nav>
-      <div className="main">
-        <Main />
-      </div>
+      <Nav />
+      <Hero />
     </div>
   )
 }
