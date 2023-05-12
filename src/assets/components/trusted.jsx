@@ -12,8 +12,17 @@ const Trusted = () =>{
         <div className="trusted">
             <p>Trusted By</p>
             <div>
-                
+                <img src={one} alt="" />
+                <img src={two} alt="" />
+                <img src={three} alt="" />
+                <img src={four} alt="" />
+                <img src={five} alt="" />
+                <img src={six} alt="" />
+                <img src={seven} alt="" />
             </div>
         </div>
     )
 }
+
+
+export default Trusted

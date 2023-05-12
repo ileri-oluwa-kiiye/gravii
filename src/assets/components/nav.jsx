@@ -31,7 +31,7 @@ const Nav =() => {
             <div className={menuActive? 'mobilenav active' : 'mobilenav non-active'}>
                 {/* The navigation links */}
                 <ul>
-                    <li><a href="">Product</a></li>
+                    <li><a href=""><span className="orange">Product</span></a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>

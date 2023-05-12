@@ -271,6 +271,37 @@ span.orange{
 }
 
 
+.trusted{
+    background-color: $grey-bg;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh  5%;
+    align-items: center;
+
+    p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 195.7%;
+        display: flex;
+        align-items: center;
+        margin: 10px auto;
+        width: 100px;
+        color: #575757;
+
+    }
+
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        img{
+            padding: 10px 7px;
+        }
+    }
+}
+
 
 
 
@@ -461,4 +492,32 @@ span.orange{
             display: block;
         }
     }
+
+    .trusted{
+        background-color: $grey-bg;
+        display: block;
+        justify-content: space-between;
+        padding: 4vh  5%;
+        align-items: center;
+    
+        p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 195.7%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            width: 100px;
+            color: #575757;
+    
+        }
+    
+        div{
+            width: 100%;
+            display: block;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+    
 }
