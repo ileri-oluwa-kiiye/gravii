@@ -26,7 +26,7 @@ span.orange{
         justify-content: space-between;
         padding-bottom: 17px;
         border-bottom: 1px solid rgba(159, 159, 159, 0.33);
-        margin: 25px 5%;
+        margin: 20px 5%;
 
         img{
             height: 50px;
@@ -121,6 +121,150 @@ span.orange{
             &:hover{
                 color: $grey-color;
                 border-bottom: 1px solid $grey-color;
+            }
+        }
+    }
+}
+
+.footer{
+    background-color: $grey-bg;
+    padding: 5%;
+
+    .lists{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        img{
+            height: 50px;
+        }
+
+        ul{
+            list-style: none;
+
+            li{
+                font-weight: 400;
+                max-width: 300px;
+                font-size: 16px;
+                line-height: 31px;
+                color: $grey-color;
+
+                &.header{
+                    font-weight: 700;
+                    color: black;
+                    font-size: 18px;
+                    line-height: 195.7%;
+                    margin-bottom: 5px;
+                }
+
+                &.form{
+                    display: flex;
+                    margin: 20px 0px;
+                    
+                    input{
+                        padding: 19px 25px;
+                        border-radius:  5px 0px 0px 5px;
+                        border: 1px solid #BBBBBB;
+                        outline: none;
+                        background: inherit;
+                        width: 200px;
+                        border-right: none;
+
+                        &::placeholder{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 31px;
+                            color: #797979;
+                        }
+                    }
+
+                    button{
+                        border-radius: 0px 5px 5px 0px;
+                        border: none;
+                        background-color: $global-orange;
+                        outline: none;
+                        width: 200px;
+                        color: white;
+                        cursor: pointer;
+                        padding: auto 20px;
+                        transition: all 0.3s ease;
+
+                        &:hover{
+                            background-color: $lighter-grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .icons{
+        padding: 30px 0px;
+        img{
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            margin-right: 20px;
+        }
+    }
+
+    footer{
+        border-top: 1px solid #E1E1E1;
+        padding-top: 60px;
+        color: $lighter-grey;
+        font-size: 14px;
+    }
+}
+
+.features{
+    text-align: center;
+    padding: 50px 5vw;
+
+    h2{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 56px;
+        text-align: center;
+        color: #454545;
+        margin: 5px 0px;
+    }
+
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin: 40px 0px;
+
+        li{
+            list-style-type: none;
+            margin: 30px 0px;
+
+            img{
+                width: 40px;
+                height: 40px;
+            }
+
+            h4{
+                font-weight: 700;
+                font-size: 18px;
+                margin: 10px 0px;
+                line-height: 35px;
+            }
+
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 31px;
+                max-width: 300px;
+                margin: 10px 0px;
+                margin-bottom: 45px;
+            }
+
+            a{
+                transition: color 0.3s ease;
+
+                &:hover{
+                    color: $global-orange;
+                }
             }
         }
     }
@@ -280,6 +424,41 @@ span.orange{
                 line-height: 195.7%;
                 margin: 30px 0px;
             }
+        }
+    }
+
+    .footer{
+        background-color: $grey-bg;
+        padding: 5%;
+    
+        .lists{
+            display: block;
+    
+            img{
+                height: 45px;
+                margin-bottom: 15px;
+            }
+    
+            ul{
+                margin-top: 30px;
+    
+                li{
+                    font-size: 15px;
+                }
+            }
+        }
+    
+        footer{
+            padding-top: 15px;
+            padding-bottom: 30px;
+            font-size: 14px;
+        }
+    }
+    
+
+    .features{
+        section{
+            display: block;
         }
     }
 }
