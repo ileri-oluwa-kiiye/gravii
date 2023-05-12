@@ -145,9 +145,16 @@ span.orange{
             li{
                 font-weight: 400;
                 max-width: 300px;
+                margin-bottom: 4px;
                 font-size: 16px;
                 line-height: 31px;
                 color: $grey-color;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    color: $global-orange;
+                }
 
                 &.header{
                     font-weight: 700;
